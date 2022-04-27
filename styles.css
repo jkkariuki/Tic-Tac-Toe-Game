@@ -1,0 +1,93 @@
+.container1, .rules, .container2 {
+  text-align: center;
+  margin: 10px;
+}
+
+.container2 {
+  clear: left;
+}
+
+.grid, .rules, .container2 {
+  display: none;
+}
+
+label, select {
+  font-size: 25px;
+}
+
+.rules {
+  font-size: 30px;
+}
+
+.player-letter-assign {
+  color: green;
+}
+
+.pc-letter-assign {
+  color: red;
+}
+
+.btnResult, .btnPlay {
+  background: black;
+  color: white;
+  border-radius: 5px;
+  font-size: 25px;
+  padding: 5px;
+}
+
+.grid {
+  width: 400px;
+  margin: 50px auto;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  float: left;
+  padding: 20px;
+  font-size: 50px;
+  text-align: center;
+  line-height: 80px;
+}
+
+#s1, #s2, #s3 {
+  border-top: none;
+}
+
+#s1, #s4, #s7 {
+  border-left: none;
+}
+
+#s7, #s8, #s9 {
+  border-bottom: none;
+}
+
+#s3, #s6, #s9 {
+  border-right: none;
+}
+
+.x-mark::after {
+  content: "X";
+  color: green;
+}
+
+.o-mark::after {
+  content: "O";
+  color: red;
+}
+
+.lost {
+  background-color: red;
+  margin: 25px
+}
+
+.win {
+  background-color: green;
+  margin: 25px
+}
+
+.draw {
+  background-color: purple;
+  margin: 25px
+}
